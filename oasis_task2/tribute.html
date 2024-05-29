@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            padding: 20px;
+            background-color: #272727;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            margin: 20px;
+        }
+        h1 {
+            color: #f39c12;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            margin: 20px 0;
+            overflow: hidden;
+            position: relative;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+        .image-container:hover img {
+            transform: scale(1.05);
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin: 20px 0;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .quote {
+            font-style: italic;
+            color: #bdc3c7;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            color: #888888;
+            font-size: 0.9em;
+        }
+        .footer a {
+            color: #3498db;
+        }
+        /* Additional Styles for Colors */
+        .accent {
+            color: #ff6f00;
+        }
+        .btn {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tribute to Dr. A.P.J. Abdul Kalam</h1>
+        <div class="image-container">
+            <img src="apj.jpg" alt="Dr. A.P.J. Abdul Kalam">
+        </div>
+        <p class="quote">"“Failure will never overtake me if my definition of success is strong enough”."</p>
+        <p>Dr. A.P.J. Abdul Kalam, known as the "Missile Man of India," was a distinguished Indian aerospace scientist and the 11th President of India from 2002 to 2007.</p>
+        <p>Born on October 15, 1931, in Rameswaram, Tamil Nadu, Kalam made significant contributions to India's civilian space program and military missile development. He played a pivotal role in the Pokhran-II nuclear tests in 1998, which established India as a nuclear power.Kalam earned a degree in aeronautical engineering from the Madras Institute of Technology and in 1958 joined the Defence Research and Development Organisation (DRDO). In 1969 he moved to the Indian Space Research Organisation, where he was project director of the SLV-III, the first satellite launch vehicle that was both designed and produced in India. Rejoining DRDO in 1982, Kalam planned the program that produced a number of successful missiles, which helped earn him the nickname “Missile Man.” Among those successes was Agni, India’s first intermediate-range ballistic missile, which incorporated aspects of the SLV-III and was launched in 1989.</p>
+        <p>Beyond his scientific achievements, Dr. Kalam was a beloved teacher and author, inspiring millions with his vision for a self-reliant and developed India. His books, including "Wings of Fire" and "Ignited Minds," continue to motivate young minds to pursue their dreams and contribute to the nation's progress.</p>
+        <p>Dr. Kalam passed away on July 27, 2015, but his legacy lives on in the hearts of many. His dedication, humility, and love for education and youth empowerment remain a guiding light for future generations.</p>
+        <p>Learn more about Dr. A.P.J. Abdul Kalam on his <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">Wikipedia page</a>.</p>
+     <div class="footer">
+            <p>created by &copy;MD SAMAR</p>
+        </div>
+    </div>
+</body>
+</html>
